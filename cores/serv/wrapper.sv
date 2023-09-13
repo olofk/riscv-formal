@@ -40,6 +40,12 @@ module rvfi_wrapper (
 
 	// I-MEM
 	always @(posedge clock) begin
+		/*
+		  SERV makes no guarantees to handle illegal instructions.
+		  Ignore all opcodes that doesn't end in 2'b11.
+		*/
+		assume (ibus_rdt[1:0] == 2'b11);
+
 		if (reset) begin
 			assume (!ibus_ack);
 		end
