@@ -32,20 +32,20 @@ prep -flatten -nordff -top testbench
 cover.sv
 wrapper.sv
 sbram.sv
-serv-src/rtl/serv_bufreg.v
-serv-src/rtl/serv_bufreg2.v
-serv-src/rtl/serv_alu.v
-serv-src/rtl/serv_csr.v
-serv-src/rtl/serv_ctrl.v
-serv-src/rtl/serv_decode.v
-serv-src/rtl/qerv_immdec.v
-serv-src/rtl/serv_mem_if.v
-serv-src/rtl/serv_rf_if.v
+qerv-src/rtl/serv_bufreg.v
+qerv-src/rtl/serv_bufreg2.v
+qerv-src/rtl/serv_alu.v
+qerv-src/rtl/serv_csr.v
+qerv-src/rtl/serv_ctrl.v
+qerv-src/rtl/serv_decode.v
+qerv-src/rtl/qerv_immdec.v
+qerv-src/rtl/serv_mem_if.v
+qerv-src/rtl/serv_rf_if.v
 serv-src/rtl/serv_rf_ram.v
-serv-src/rtl/serv_rf_ram_if.v
-serv-src/rtl/serv_state.v
-serv-src/rtl/serv_top.v
-serv-src/rtl/serv_rf_top.v
+qerv-src/rtl/serv_rf_ram_if.v
+qerv-src/rtl/serv_state.v
+qerv-src/rtl/serv_top.v
+qerv-src/rtl/serv_rf_top.v
 ../../checks/rvfi_macros.vh
 
 [file defines.sv]
