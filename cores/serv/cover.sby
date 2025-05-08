@@ -34,7 +34,7 @@ cover.sv
 wrapper.sv
 sbram.sv
 qerv-src/rtl/serv_bufreg.v
-qerv-src/rtl/serv_bufreg2.v
+serv-src/rtl/serv_bufreg2.v
 serv-src/rtl/serv_alu.v
 serv-src/rtl/serv_csr.v
 serv-src/rtl/serv_ctrl.v
