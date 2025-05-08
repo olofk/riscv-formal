@@ -33,7 +33,7 @@ prep -flatten -nordff -top testbench
 cover.sv
 wrapper.sv
 sbram.sv
-qerv-src/rtl/serv_bufreg.v
+serv-src/rtl/serv_bufreg.v
 serv-src/rtl/serv_bufreg2.v
 serv-src/rtl/serv_alu.v
 serv-src/rtl/serv_csr.v
